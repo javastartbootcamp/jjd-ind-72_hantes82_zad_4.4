@@ -1,5 +1,9 @@
 package pl.javastart.task;
 
+import pl.javastart.task.data.Offer;
+import pl.javastart.task.logic.CustomerService;
+import pl.javastart.task.logic.SalesRepresentative;
+
 public class Main {
     public static void main(String[] args) {
         SalesRepresentative salesRepresentative = new SalesRepresentative();
