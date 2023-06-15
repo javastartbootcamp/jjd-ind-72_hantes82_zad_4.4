@@ -1,9 +1,9 @@
 package pl.javastart.task.data;
 
-public class Offer {
-    boolean valid;
-    double value;
-    double percentage;
+class Offer {
+    private boolean valid;
+    private double value;
+    private double percentage;
 
     public Offer(boolean valid, double value, double percentage) {
         this.valid = valid;
