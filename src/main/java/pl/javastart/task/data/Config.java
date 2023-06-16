@@ -2,30 +2,30 @@ package pl.javastart.task.data;
 
 class Config {
 
-    private int minRequiredEarnings = 2000;
-    private double percentage = 0.03;
+    int minRequiredEarnings = 2000;
+    double percentage = 0.03;
 
-    public Config(int minRequiredEarnings, double percentage) {
+    Config(int minRequiredEarnings, double percentage) {
         this.minRequiredEarnings = minRequiredEarnings;
         this.percentage = percentage;
     }
 
-    public Config() {
+    Config() {
     }
 
-    public int getMinRequiredEarnings() {
+    int getMinRequiredEarnings() {
         return minRequiredEarnings;
     }
 
-    public void setMinRequiredEarnings(int minRequiredEarnings) {
+    void setMinRequiredEarnings(int minRequiredEarnings) {
         this.minRequiredEarnings = minRequiredEarnings;
     }
 
-    public double getPercentage() {
+    double getPercentage() {
         return percentage;
     }
 
-    public void setPercentage(double percentage) {
+    void setPercentage(double percentage) {
         this.percentage = percentage;
     }
 }

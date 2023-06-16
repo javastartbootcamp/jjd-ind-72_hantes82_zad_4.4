@@ -1,9 +1,9 @@
 package pl.javastart.task.data;
 
-class Offer {
-    private boolean valid;
-    private double value;
-    private double percentage;
+public class Offer {
+    boolean valid;
+    double value;
+    double percentage;
 
     public Offer(boolean valid, double value, double percentage) {
         this.valid = valid;
@@ -14,27 +14,27 @@ class Offer {
     public Offer() {
     }
 
-    public boolean isValid() {
+    boolean isValid() {
         return valid;
     }
 
-    public void setValid(boolean valid) {
+    void setValid(boolean valid) {
         this.valid = valid;
     }
 
-    public double getValue() {
+    double getValue() {
         return value;
     }
 
-    public void setValue(double value) {
+    void setValue(double value) {
         this.value = value;
     }
 
-    public double getPercentage() {
+    double getPercentage() {
         return percentage;
     }
 
-    public void setPercentage(double percentage) {
+    void setPercentage(double percentage) {
         this.percentage = percentage;
     }
 }

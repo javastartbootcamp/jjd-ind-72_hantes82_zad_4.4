@@ -1,10 +1,10 @@
-package pl.javastart.task.logic;
+package pl.javastart.task.data;
 
 import pl.javastart.task.data.Config;
 import pl.javastart.task.data.Offer;
 
 public class SalesRepresentative {
-    Config config;
+    public Config config;
 
     public SalesRepresentative() {
         this.config = new Config();

@@ -1,4 +1,4 @@
-package pl.javastart.task.logic;
+package pl.javastart.task.data;
 
 import pl.javastart.task.data.Offer;
 
