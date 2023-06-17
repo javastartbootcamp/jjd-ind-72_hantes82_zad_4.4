@@ -12,7 +12,7 @@ public class Main {
         // salesRepresentative.config.minRequiredEarnings = 0;
 
         Offer offer = salesRepresentative.createLoanOffer(1_000_000, 1000);
-        Offer offer1 = new Offer(true, 1000000, 0);
+        //Offer offer1 = new Offer(true, 1000000, 0);
         //offer1.setValue(10000000);
         //offer1.setPercentage(5);
         // to również nie powinno być możliwe
